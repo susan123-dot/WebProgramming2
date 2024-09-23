@@ -1,24 +1,16 @@
 package com.susan.prg2.entity;
 
 public class User {
-    private String email;
+    private String username;
     private String password;
 
-    public User() {
+    // Getters and Setters
+    public String getUsername() {
+        return username;
     }
 
-    public User(String email, String password) {
-        this.email = email;
-        this.password = password;
-    }
-
-    // Getters and setters
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
+    public void setUsername(String username) {
+        this.username = username;
     }
 
     public String getPassword() {
@@ -28,5 +20,4 @@ public class User {
     public void setPassword(String password) {
         this.password = password;
     }
-    
 }
